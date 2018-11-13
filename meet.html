@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+  <title>AnkurPareek</title>
+
+
+  <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+  <div class="wrapper-meet">
+
+
+    <!--Navigation
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#">Me</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Meet</a></li>
+      </nav>-->
+
+     
+        <!--Top section-->
+        <section class="header">
+            <a href="index.html"><img class="logo" src="img/logoWhite.png" width="80px" height="80px"></a>
+            <nav class="main-nav">
+              <ul>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="work.html">Work</a></li>
+                  <li><a href="meet.html">Meet</a></li>
+                </nav>
+                
+                <div class="sub-nav">
+                  <h4 class="sub-menu">Menu</h4>
+                </div>
+                </section>
+
+                <Section class="contact-form">
+                   <!-- enctype="multipart/form-data"-->
+
+                    <h3>Thanks</h3>
+
+                    <div class="form">
+                      <form action="mailto:pareekan@me.com"
+                      method="POST"
+                      enctype="text/plain"
+                      name="EmailTestForm">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Your email..">
+                    
+                        <label for="country">Country</label>
+                        <input type="text" id="country" name="country" placeholder="Your country..">
+                    
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                      </form>
+                    </div>
+                </Section>
+
+       <!-- <div class="top-box top-box-a">
+          <h4>Membership</h4>
+            <p class="price">Rs199/mo</p>
+            <a href="" class="btn">Buy now</a>
+        </div>
+        <div class="top-box top-box-b">
+          <h4>Pro Membership</h4>
+            <p class="price">Rs299/mo</p>
+            <a href="" class="btn">Buy now</a>
+        </div>
+       </section>-->
+
+
+
+      <!--Information section
+       <section class="info">
+         <img src="img/pic1.jpeg" alt="">
+         <div>
+           <h2>Your Business On The Web</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dolorum doloribus, sunt assumenda amet quas aperiam, in sequi, corporis corrupti veniam accusamus aut praesentium facilis! Beatae itaque numquam minus, alias.</p>
+            <a href="#" class="btn">Learn more</a>
+         </div>
+       </section>-->
+
+
+
+       <!--footer
+       <footer>
+         <p>AnkurPareek &copy; 2018</p>
+       </footer>-->
+  </div>
+<!--wrapper ends here-->
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".sub-menu").click(function(){
+      $("nav").slideToggle(500);
+    })
+  })
+</script>
+</body>
+</html>
